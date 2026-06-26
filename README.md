@@ -1,26 +1,32 @@
 ## Hi, I'm MD Minhazur Rahman 👋
 
-**Data Scientist** — I build end-to-end ML systems, from synthetic data generation and demand forecasting through to privacy-preserving, production-grade pipelines (Docker · MLflow · FastAPI · CI/CD).
+**Data Scientist / ML Engineer** — I turn forecasting & LLM research into production-grade, tested, containerized ML systems (Docker · MLflow · FastAPI · CI/CD).
 
 🎓 MSc Data Science, University of Greenwich · 3+ years across data & IT roles
-🌍 Based in Bangladesh · open to **UK / international Data Scientist roles**, including visa sponsorship & relocation
+🌍 Based in Bangladesh · open to **Data Scientist / ML Engineer roles worldwide**, including visa sponsorship & relocation (EU Blue Card eligible · GCC · UK)
 
 ---
 
 ### 🚀 Featured projects
 
 **[synthetic-retail-mlops-pipeline](https://github.com/minhazda/synthetic-retail-mlops-pipeline)** — *Production MLOps*
-Retail demand forecasting re-engineered into a deployable service: containerized with Docker, experiment-tracked with MLflow, served via FastAPI, and shipped through full CI/CD (ruff, mypy, pytest with coverage, GHCR). Typed, tested, reproducible.
-▶ **[Live API](https://minhazda-retail-forecasting-api.hf.space)** — try the /predict endpoint
+Retail demand forecasting re-engineered into a deployable service: Docker, MLflow experiment tracking, FastAPI serving, full CI/CD (ruff · mypy · pytest+coverage · GHCR). Typed, tested, reproducible.
+📈 **LightGBM cut MAE 40.8% and RMSE 47.3%** vs the naïve baseline · ▶ **[Live API](https://minhazda-retail-forecasting-api.hf.space)** — try `/predict`
+
+**[real-retail-forecasting](https://github.com/minhazda/real-retail-forecasting)** — *Real-world data rigor*
+Daily demand forecasting on **1.07M real UCI Online Retail II transactions** — every cleaning decision documented as a first-class artifact (cancellations, returns, non-product codes).
+📈 **+26.3% pooled MAE over seasonal-naïve, beating the baseline on 47/49 product series (96%)** · honest metrics, no fabricated numbers.
 
 **[privacy-preserving-rag-agent](https://github.com/minhazda/privacy-preserving-rag-agent)** — *LLM / RAG*
-A LangGraph tool-calling agent that answers questions over a document corpus using on-device embeddings, behind a fail-closed privacy guard with differential-privacy and audit-trail modules. Covered by a 10-module test suite.
+A LangGraph tool-calling agent answering questions over a document corpus using on-device embeddings, behind a fail-closed privacy guard (PII redaction + synthetic-only validation).
+📈 **Offline RAG eval (faithfulness · answer-relevance · context-precision) wired into CI quality gates** · 10-module test suite.
 
-**[synthetic-retail-forecasting](https://github.com/minhazda/synthetic-retail-forecasting)** — *Research (DOI-indexed)*
-The research artifact behind the production pipeline: a controllable synthetic-data generator and Rolling-Origin Cross-Validation benchmarking of tree-based ensembles (Random Forest, LightGBM).
-📄 DOI-indexed preprint: [10.5281/zenodo.19479285](https://doi.org/10.5281/zenodo.19479285)
+<sub>📄 Research foundation: [synthetic-retail-forecasting](https://github.com/minhazda/synthetic-retail-forecasting) — controllable synthetic-data generator + Rolling-Origin CV of tree ensembles. DOI-indexed: [10.5281/zenodo.19479285](https://doi.org/10.5281/zenodo.19479285)</sub>
 
 ---
+
+### 🔭 Currently building
+Extending the MLOps pipeline to **cloud deployment (AWS + Terraform/IaC)** with **drift monitoring (Evidently)** and **Prometheus/Grafana** observability.
 
 ### 🛠️ Tech
 Python · scikit-learn · LightGBM / XGBoost · FastAPI · LangGraph · ChromaDB · Docker · MLflow · GitHub Actions · SQL · Streamlit · pandas / NumPy · statsmodels
