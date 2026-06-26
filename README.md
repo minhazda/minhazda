@@ -11,7 +11,7 @@
 
 **[synthetic-retail-mlops-pipeline](https://github.com/minhazda/synthetic-retail-mlops-pipeline)** — *Production MLOps*
 Retail demand forecasting re-engineered into a deployable service: containerized with Docker, experiment-tracked with MLflow, served via FastAPI, and shipped through full CI/CD (ruff, mypy, pytest with coverage, GHCR). Typed, tested, reproducible.
-<!-- LIVE_API_PLACEHOLDER -->
+▶ **[Live API](https://minhazda-retail-forecasting-api.hf.space)** — try the /predict endpoint
 
 **[privacy-preserving-rag-agent](https://github.com/minhazda/privacy-preserving-rag-agent)** — *LLM / RAG*
 A LangGraph tool-calling agent that answers questions over a document corpus using on-device embeddings, behind a fail-closed privacy guard with differential-privacy and audit-trail modules. Covered by a 10-module test suite.
