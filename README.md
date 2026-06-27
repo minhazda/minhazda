@@ -7,15 +7,15 @@
 
 ---
 
-### 🚀 Featured projects
+### 🚀 Featured projects · ▶ two live interactive demos
+
+**[fraud-detection-mlops](https://github.com/minhazda/fraud-detection-mlops)** — *Imbalanced classification*
+Real-time card-fraud scoring: LightGBM with class-imbalance handling, a validation-tuned decision threshold, and raw-transaction feature engineering at serve time (no train/serve skew).
+📈 **ROC-AUC 0.90 · PR-AUC 0.49 (~8× the base rate)** · ▶ **[Try the live demo](https://fraud-detection-api-ude5vos6lq-uc.a.run.app/)** — enter a transaction, get a risk score
 
 **[synthetic-retail-mlops-pipeline](https://github.com/minhazda/synthetic-retail-mlops-pipeline)** — *Production MLOps*
-Retail demand forecasting re-engineered into a deployable service: Docker, MLflow tracking, FastAPI serving, full CI/CD, Terraform IaC, Prometheus/Grafana + Evidently observability. Typed, tested, reproducible.
-📈 **LightGBM cut MAE 40.8% / RMSE 47.3%** vs the naïve baseline · ▶ **[Live on GCP Cloud Run](https://retail-forecasting-api-ude5vos6lq-uc.a.run.app/health)** (Terraform-deployed)
-
-**[fraud-detection-mlops](https://github.com/minhazda/fraud-detection-mlops)** — *Imbalanced classification (different domain)*
-Real-time card-fraud scoring: LightGBM with class-imbalance handling, a validation-tuned decision threshold, and raw-transaction feature engineering at serve time (no train/serve skew).
-📈 **ROC-AUC 0.90 · PR-AUC 0.49 (~8× the base rate)** · ▶ **[Live on GCP Cloud Run](https://fraud-detection-api-ude5vos6lq-uc.a.run.app/health)**
+Retail demand forecasting re-engineered into a deployable service: Docker, MLflow, FastAPI, full CI/CD, Terraform IaC, Prometheus/Grafana + Evidently observability. Typed, tested, reproducible.
+📈 **LightGBM cut MAE 40.8% / RMSE 47.3%** vs the naïve baseline · ▶ **[Try the live demo](https://retail-forecasting-api-ude5vos6lq-uc.a.run.app/)** — set conditions, get a forecast
 
 **[real-retail-forecasting](https://github.com/minhazda/real-retail-forecasting)** — *Real-world data rigor*
 Daily demand forecasting on **1.07M real UCI Online Retail II transactions** — every cleaning decision documented as a first-class artifact, plus a runnable DuckDB SQL analysis reproducing the findings.
@@ -30,7 +30,7 @@ A LangGraph tool-calling agent over a document corpus with on-device embeddings,
 ---
 
 ### ☁️ Cloud-native MLOps
-Services deploy to **GCP Cloud Run via Terraform** with **keyless CI/CD (Workload Identity Federation)**, **Prometheus/Grafana** metrics, and **Evidently** drift monitoring.
+Both demos deploy to **GCP Cloud Run via Terraform** with **keyless CI/CD (Workload Identity Federation)**, **Prometheus/Grafana** metrics, and **Evidently** drift monitoring. Services scale to zero — the first request after idle takes a few seconds to wake.
 
 ### 🛠️ Tech
 Python · scikit-learn · LightGBM / XGBoost · FastAPI · LangGraph · ChromaDB · Docker · Terraform · GCP Cloud Run · MLflow · Prometheus/Grafana · GitHub Actions · SQL · pandas / NumPy
