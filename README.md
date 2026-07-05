@@ -48,7 +48,7 @@ A LangGraph tool-calling agent over a document corpus with on-device embeddings,
 Both demos deploy to **GCP Cloud Run via Terraform** with **keyless CI/CD (Workload Identity Federation)**, **Prometheus/Grafana** metrics, and **Evidently** drift monitoring. The streaming stack additionally ships **Kubernetes manifests proven by a kind smoke test in CI**.
 
 ### 🛠️ Tech
-Python · LightGBM / XGBoost / scikit-learn · PyTorch · FastAPI · Kafka (Redpanda) · Dagster · dbt · DuckDB · SQL · Docker · Kubernetes · Terraform · GCP Cloud Run · MLflow · Prometheus / Grafana · Evidently · LangGraph · ChromaDB · GitHub Actions · pandas / NumPy · pytest / Hypothesis / mypy
+Python · LightGBM / XGBoost / scikit-learn · PyTorch · FastAPI · Kafka (Redpanda) · PySpark · Dagster · dbt · DuckDB · SQL · Docker · Kubernetes · Terraform · GCP Cloud Run · MLflow · Prometheus / Grafana · Evidently · LangGraph · ChromaDB · GitHub Actions · pandas / NumPy · pytest / Hypothesis / mypy
 
 ### 📫 Reach me
 [LinkedIn](https://www.linkedin.com/in/mohammadminhaz/) · 📧 minhazurrahman.ds@gmail.com
