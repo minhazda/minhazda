@@ -46,7 +46,7 @@ A LangGraph tool-calling agent over a document corpus with on-device embeddings,
 
 ### 🤖 Automation & agentic tooling
 
-**[job-radar](https://github.com/minhazda/job-radar)** — *Live demo* — paste any careers page, get every open role scored for fit with a plain-English "why." Built on [Firecrawl](https://github.com/mendableai/firecrawl) (credited). ▶ **[Try it](https://huggingface.co/spaces/Minhazda/job-radar)**
+**[job-radar](https://github.com/minhazda/job-radar)** — *Live demo* — paste any careers page (or several) and get every open role scored for your fit with a plain-English "why." **100% free, no API key**; dark UI, multi-company compare, transparent rule-engine scoring, CSV export. Ships a Dockerfile + auto-deploy CI. ▶ **[Try it live](https://huggingface.co/spaces/Minhazda/job-radar)**
 
 **[invoice-automation](https://github.com/minhazda/invoice-automation)** — OCR → Pydantic + arithmetic validation → DuckDB ledger, with a human-in-the-loop exception queue for anything malformed. 📈 **73.3% straight-through rate** — every malformed invoice caught, none booked.
 
@@ -56,7 +56,7 @@ A LangGraph tool-calling agent over a document corpus with on-device embeddings,
 
 **[n8n-automation-hub](https://github.com/minhazda/n8n-automation-hub)** — Three versioned, idempotent n8n workflows (lead intake, error-handling + DLQ, weekly reporting) with a Node.js structural validator running in CI.
 
-<sub>Also: [job-hunter-bd](https://github.com/minhazda/job-hunter-bd) — a free public job-search tool for Bangladeshi job seekers (scraper + match scoring + AI CV tailoring).</sub>
+<sub>Also: [job-hunter-bd](https://github.com/minhazda/job-hunter-bd) — a free public job-search tool for Bangladeshi job seekers (scraper + match scoring + AI CV tailoring) · [awesome-ai-automation](https://github.com/minhazda/awesome-ai-automation) — a curated, opinionated map of the best open-source automation tools.</sub>
 
 ---
 
