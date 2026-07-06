@@ -44,13 +44,27 @@ A LangGraph tool-calling agent over a document corpus with on-device embeddings,
 
 <sub>📄 Research foundation: [synthetic-retail-forecasting](https://github.com/minhazda/synthetic-retail-forecasting) — controllable synthetic-data generator + Rolling-Origin CV of tree ensembles. DOI-indexed: [10.5281/zenodo.19479285](https://doi.org/10.5281/zenodo.19479285)</sub>
 
+### 🤖 Automation & agentic tooling
+
+**[job-radar](https://github.com/minhazda/job-radar)** — *Live demo* — paste any careers page, get every open role scored for fit with a plain-English "why." Built on [Firecrawl](https://github.com/mendableai/firecrawl) (credited). ▶ **[Try it](https://huggingface.co/spaces/Minhazda/job-radar)**
+
+**[invoice-automation](https://github.com/minhazda/invoice-automation)** — OCR → Pydantic + arithmetic validation → DuckDB ledger, with a human-in-the-loop exception queue for anything malformed. 📈 **73.3% straight-through rate** — every malformed invoice caught, none booked.
+
+**[ai-triage-agent](https://github.com/minhazda/ai-triage-agent)** — Classifies support tickets and drafts grounded replies that never invent policy — no match means a safe holding reply flagged for a human, not a guess.
+
+**[rpa-reconciliation-bot](https://github.com/minhazda/rpa-reconciliation-bot)** — Playwright RPA (retry/backoff, screenshot-on-failure) reconciling transactions against a ledger, proven with a real headless-browser end-to-end test.
+
+**[n8n-automation-hub](https://github.com/minhazda/n8n-automation-hub)** — Three versioned, idempotent n8n workflows (lead intake, error-handling + DLQ, weekly reporting) with a Node.js structural validator running in CI.
+
+<sub>Also: [job-hunter-bd](https://github.com/minhazda/job-hunter-bd) — a free public job-search tool for Bangladeshi job seekers (scraper + match scoring + AI CV tailoring).</sub>
+
 ---
 
 ### ☁️ Cloud-native MLOps
 Both demos deploy to **GCP Cloud Run via Terraform** with **keyless CI/CD (Workload Identity Federation)**, **Prometheus/Grafana** metrics, and **Evidently** drift monitoring. The streaming stack additionally ships **Kubernetes manifests proven by a kind smoke test in CI**.
 
 ### 🛠️ Tech
-Python · LightGBM / XGBoost / scikit-learn · PyTorch · FastAPI · Kafka (Redpanda) · PySpark · Dagster · dbt · DuckDB · SQL · Docker · Kubernetes · Terraform · GCP Cloud Run · MLflow · Prometheus / Grafana · Evidently · LangGraph · ChromaDB · GitHub Actions · pandas / NumPy · pytest / Hypothesis / mypy
+Python · LightGBM / XGBoost / scikit-learn · PyTorch · FastAPI · Kafka (Redpanda) · PySpark · Dagster · dbt · DuckDB · SQL · Docker · Kubernetes · Terraform · GCP Cloud Run · MLflow · Prometheus / Grafana · Evidently · LangGraph · ChromaDB · Playwright · n8n · Streamlit · GitHub Actions · pandas / NumPy · pytest / Hypothesis / mypy
 
 ### 📫 Reach me
 [LinkedIn](https://www.linkedin.com/in/mohammadminhaz/) · 📧 minhazurrahman.ds@gmail.com
