@@ -5,6 +5,8 @@
 🎓 MSc Data Science, University of Greenwich · 3+ years across data & IT roles
 🌍 Based in Bangladesh · open to **Data Scientist / ML Engineer roles worldwide**, including visa sponsorship & relocation (EU Blue Card eligible · GCC · UK)
 
+🌐 **Portfolio: [minhazda.github.io](https://minhazda.github.io)** · 📄 [CV (PDF)](https://github.com/minhazda/cv/raw/main/CV_MD_MinhazurRahman.pdf)
+
 ---
 
 ### ▶ Live demos — deployed on GCP Cloud Run
